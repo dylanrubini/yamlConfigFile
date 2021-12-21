@@ -2,7 +2,7 @@
 # Optional features:
 OPTION(FORTRAN_INTEGER8 "Fortran INTEGER type defaults to 8-byte (64-bit)" OFF)
 OPTION(FORTRAN_LOGICAL8 "Fortran LOGICAL type defaults to 8-byte (64-bit)" OFF)
-OPTION(FORTRAN_REAL8 "Fortran REAL type defaults to 8-byte (64-bit, double-precision)" OFF)
+OPTION(FORTRAN_REAL8 "Fortran REAL type defaults to 8-byte (64-bit, double-precision)" ON)
 OPTION(FORTRAN_NO_UNDERSCORING "Do not add an underscore (_) to C-implemented Fortran functions" OFF)
 
 # We absolutely need libyaml:

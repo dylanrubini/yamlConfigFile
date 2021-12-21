@@ -12,7 +12,7 @@ INCLUDE(GNUInstallDirs)
 SET(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/modules/")
 
 # Make the demo executables an optional build component:
-OPTION(ENABLE_DEMO_PROGRAMS "Build demonstration programs" OFF)
+OPTION(ENABLE_DEMO_PROGRAMS "Build demonstration programs" ON)
 
 # Common headers are found here:
 SET(COMMON_HEADERS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/include")
