@@ -1,0 +1,10 @@
+*.mod
+/CMakeFiles/*
+*Makefile
+# *.cmake
+*.txt
+*cmake_install*
+*.o
+*.a
+*.so
+*CMakeFiles*
