@@ -6,11 +6,11 @@
 #  LIBYAML_DEFINITIONS - Compiler switches required for using libyaml
 
 find_path(LIBYAML_INCLUDE_DIR yaml.h
-          HINTS ${LIBYAML_INCLUDEDIR}
+          HINTS ${LIBYAML_DIR}/include
           PATH_SUFFIXES libyaml )
 
 find_library(LIBYAML_LIBRARY NAMES yaml libyaml
-             HINTS ${LIBYAML_LIBDIR})
+             HINTS ${LIBYAML_DIR}/lib)
 
 include(FindPackageHandleStandardArgs)
 # handle the QUIETLY and REQUIRED arguments and set LIBYAML_FOUND to TRUE
